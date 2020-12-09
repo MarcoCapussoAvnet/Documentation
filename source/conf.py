@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'TestDoc'
+project = 'Documentation'
 copyright = '2020, Marcos'
 author = 'Marcos'
 

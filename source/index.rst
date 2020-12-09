@@ -1,10 +1,10 @@
-.. TestDoc documentation master file, created by
-   sphinx-quickstart on Wed Dec  9 12:35:04 2020.
+.. Documentation documentation master file, created by
+   sphinx-quickstart on Wed Dec  9 14:23:08 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to TestDoc's documentation!
-===================================
+Welcome to Documentation's documentation!
+=========================================
 
 .. toctree::
    :maxdepth: 2
