@@ -1,11 +1,13 @@
-from flask import Flask, render_template
+from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/', static_folder='templates/html/')
 
-@app.route("/")
-@app.route("/index.html")
-def home():
-    return render_template('html/index.html')
+
+@app.route('/')
+@app.route('/<path:path>')
+def serve_sphinx_docs(path='index.html'):
+    return app.send_static_file(path)
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
